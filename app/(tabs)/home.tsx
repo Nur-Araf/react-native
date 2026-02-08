@@ -1,0 +1,15 @@
+import { Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+export default function HomeScreen() {
+  return (
+    <SafeAreaView
+      edges={["top", "bottom"]}
+      className="flex-1 bg-background-light"
+    >
+      <View className="flex-1 items-center justify-center">
+        <Text>Home</Text>
+      </View>
+    </SafeAreaView>
+  );
+}
